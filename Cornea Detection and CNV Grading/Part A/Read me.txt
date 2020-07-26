@@ -1,0 +1,16 @@
+To get cornea detection
+
+1. Put your raw images in a folder called input, the images should be under patients under stage
+
+ex: input\Extreme\ET_101_Day 21_04.16.2015\image1.png
+
+2. Run Main_cornea_data_prepararion.m
+
+3. Setup Mask R-CNN using this website: https://github.com/matterport/Mask_RCNN
+Put the mosaic_cornea_weights in log and run nucleus.py 
+
+To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN results, 
+you should run 4, and the results will be ready in Classify_me_circles folder for part B
+
+4.fit_circles_to_maskrcnn_masks_results.m
+
