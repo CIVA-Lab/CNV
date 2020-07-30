@@ -46,7 +46,7 @@ To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN
 This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexchange/22643-circle-fit-pratt-method) to fit the cicle
 
 
-## RF CNV Grading
+## Part2 : RF CNV Grading
 
 1. Put your output from Cornea detection which is located in Output\Classify_me_circles in a folder called images as this example:
 
