@@ -17,7 +17,7 @@ Put the ```mosaic_cornea_weights``` in log, and put your ```Output\stage_test```
 
 To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN results, you should run 5, and the results will be ready in ```Output/Classify_me_circles``` folder for RF CNV Grading
 
-5.```fit_circles_to_maskrcnn_masks_results.m```
+5. ``` fit_circles_to_maskrcnn_masks_results.m ```
  
 This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexchange/22643-circle-fit-pratt-method) to fit the cicle
 
