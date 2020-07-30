@@ -10,16 +10,16 @@ There are Three main folders in our repository:
 **Output:** contains results, intermediate results and some mat files that are needed by our algorithm. 
 
 
-There are two parts for this software in ```Src``` folder, you can skip Part1 (Cornea Detection) if you already have your cornea extracted in 400x400 image size dimention. 
+There are two parts for this software in ```Src``` folder, you can skip Part 1 (Cornea Detection) if you already have your cornea extracted in 400x400 image size dimention. 
 
-**Part1 -->** Cornea Detection: Extract the cornea from mice raw images using Mask R-CNN
+**Part 1 -->** Cornea Detection: Extract the cornea from mice raw images using Mask R-CNN
 
-**Part2 -->** RF CNV Grading: Run the classifier to grade the CNV disease.
+**Part 2 -->** RF CNV Grading: Run the classifier to grade the CNV disease.
 
 In both parts, there are readme file that describes the needed steps. The description is also placed here
 
 
-## Part1 : Cornea detection 
+## Part 1 : Cornea detection 
 
 To get cornea detection
 
@@ -46,7 +46,7 @@ To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN
 This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexchange/22643-circle-fit-pratt-method) to fit the cicle
 
 
-## Part2 : RF CNV Grading
+## Part 2 : RF CNV Grading
 
 1. Put your output from Cornea detection which is located in Output\Classify_me_circles in a folder called images as this example:
 
