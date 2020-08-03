@@ -58,7 +58,7 @@ If you already have your cornea images extracted, you can directly put them insi
 
 ### Project Collaborators and Contact
 
-**Author:** Yasmin M. Kassim
+**Author:** Yasmin M. Kassim and Kannappan Palaniappan
 
 Copyright &copy; 2019-2020. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
 
@@ -75,13 +75,8 @@ Columbia, MO 65211
 ymkgz8@mail.missouri.edu  
 
 
-* **Prof. K. Palaniappan**  
+* **Dr. K. Palaniappan**  
 205 Naka Hall (EBW)  
 University of Missouri-Columbia  
 Columbia, MO 65211  
-palaniappank@missouri.edu  
-
-### Collaborators: 
-* Dr. Suneel Gupta - University of Missouri Veterinary Health Center
-* Dr. Shyam Chaurasia - University of Missouri Veterinary Health Center
-* Dr. Rajiv R. Mohan - University of Missouri Veterinary Health Center
+palaniappank@missouri.edu
