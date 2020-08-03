@@ -2,30 +2,34 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Program Name: fit_circles_to_maskrcnn_masks_results
 %                
-%  Author: Yasmin Kassim
-%  Copyright (C) 2020. Yasmin Kassim and Curators of the
-%                      University of Missouri, a public corporation.
-%                      All Rights Reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                
+%  Author: Yasmin M. Kassim & Kannappan Palaniappan
+%  Copyright(C)2019-2020. Y. Kassim, K. Palaniappan and      
+%			  Curators of the University of Missouri, a          
+%	             public corporation.
+%                 All Rights Reserved.
+%
 %  Created by
-%  PhD student: Yasmin Kassim
+%  Yasmin M. Kassim & Kannappan Palaniappan
 %  Department of Electrical Engineering and Computer Science,
 %  University of Missouri-Columbia
 %  For more information, contact:
 %
 %      Yasmin Kassim
-%      226 Engineering Building West
+%      226 Naka Hall (EBW)
 %      University of Missouri-Columbia
 %      Columbia, MO 65211
 %      ymkgz8@mail.missouri.edu
 % 
 % or
 %      Dr. K. Palaniappan
-%      329 Engineering Building West
+%      205 Naka Hall (EBW)
 %      University of Missouri-Columbia
 %      Columbia, MO 65211
 %      palaniappank@missouri.edu
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Script fit_circles_to_maskrcnn_masks_results.m
 %  Inputs:  1. Output_from_MaskRCNN_masks
 %           2. Input raw images in stage_test
