@@ -23,7 +23,7 @@ This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexch
 
 ### Project Collaborators and Contact
 
-**Author:** Yasmin M. Kassim
+**Author:** Yasmin M. Kassim and Kannappan Palaniappan
 
 Copyright &copy; 2019-2020. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
 
@@ -40,7 +40,7 @@ Columbia, MO 65211
 ymkgz8@mail.missouri.edu  
 
 
-* **Prof. K. Palaniappan**  
+* **Dr. K. Palaniappan**  
 205 Naka Hall (EBW)  
 University of Missouri-Columbia  
 Columbia, MO 65211  
