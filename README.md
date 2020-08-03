@@ -60,7 +60,7 @@ If you already have your cornea images extracted, you can directly put them insi
 
 **Author:** Yasmin M. Kassim
 
-Copyright &copy; 2020. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
+Copyright &copy; 2019-2020. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
 
 **Created by:** Ph.D. student: Yasmin Kassim  
 Department of Electrical Engineering and Computer Science,  
@@ -69,14 +69,14 @@ University of Missouri-Columbia
 For more information, contact:
 
 * **Yasmin Kassim**  
-226 Engineering Building West  
+226 Naka Hall (EBW)  
 University of Missouri-Columbia  
 Columbia, MO 65211  
 ymkgz8@mail.missouri.edu  
 
 
 * **Prof. K. Palaniappan**  
-29 Engineering Building West  
+205 Naka Hall (EBW)  
 University of Missouri-Columbia  
 Columbia, MO 65211  
 palaniappank@missouri.edu  
