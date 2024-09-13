@@ -60,9 +60,9 @@ If you already have your cornea images extracted, you can directly put them insi
 
 ### Project Collaborators and Contact
 
-**Author:** Yasmin M. Kassim and Kannappan Palaniappan
+**Author:** Yasmin M. Kassim, Suneel Gupta, Rajiv Mohan and Kannappan Palaniappan
 
-Copyright &copy; 2019-2020. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
+Copyright &copy; 2023-2024. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
 
 **Created by:** Ph.D. student: Yasmin Kassim  
 Department of Electrical Engineering and Computer Science,  
