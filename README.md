@@ -64,7 +64,7 @@ If you already have your cornea images extracted, you can directly put them insi
 
 Copyright &copy; 2022-2024. Yasmin Kassim, Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
 
-**Created by:** Ph.D. student: Yasmin Kassim  
+**Created by:** Yasmin Kassim  
 Department of Electrical Engineering and Computer Science,  
 University of Missouri-Columbia  
 
