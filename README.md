@@ -12,7 +12,7 @@ There are Three main folders in our repository:
 **Output:** contains results, intermediate results and some mat files that are needed by our algorithm. 
 
 
-There are two parts for this software in ```Src``` folder, you can skip Part 1 (Cornea Detection) if you already have your cornea extracted in 400x400 image size dimention. 
+There are two parts for this software in ```src``` folder, you can skip Part 1 (Cornea Detection) if you already have your cornea extracted in ```400x400``` image size dimention. 
 
 **Part 1 -->** Cornea Detection: Extract the cornea from mice raw images using Mask R-CNN
 
@@ -27,21 +27,21 @@ To get cornea detection
 
 1. Put your raw images in a folder called input, the images should be placed as this example:
 
-``` input\Extreme\ET_101_Day 21_04.16.2015\image1.png```
+``` input\Extreme\ET_101_Day_21\image1.png```
 
-2. Run ```Main_cornea_data_preparation.m```
+2. Run ```main_cornea_data_preparation.m```
 
 This script will prepare your input for Mask R-CNN detection.
 
 3. Setup Mask R-CNN using this website: [Mask_RCNN](https://github.com/matterport/Mask_RCNN)
 
-Put the ```mosaic_cornea_weights``` in log folder, and put your ```Output\stage_test``` folder in the same folder with the nucleus example and run ```nucleus.py``` 
+Put the ```mosaic_cornea_weights``` in log folder, and put your ```\stage_test``` folder in the same folder with the nucleus example and run ```nucleus.py``` 
 
 4. Take the detection masks and place them in 
 
-```Output/Output_from_MaskRCNN_masks```
+```output\Output_from_MaskRCNN_masks```
 
-To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN results, you should run 5, and the results will be ready in ```Output/Classify_me_circles``` folder for RF CNV Grading
+To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN results, you should run 5, and the results will be ready in ```output\Classify_me_circles``` folder for RF CNV Grading
 
 5.```fit_circles_to_maskrcnn_masks_results.m```
  
@@ -50,11 +50,11 @@ This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexch
 
 ## Part 2 : RF CNV Grading
 
-1. Put your output from Cornea detection which is located in Output\Classify_me_circles in a folder called images as this example:
+1. Move the output from cornea segmentation which will be located in folder ```output\Classify_me_circles``` to a new folder as shown in the example:
 
-``` Output\images\test\ET_101_Day 21_04.16.2015\ET_101_Day 21_04.16.2015_Image1_Ex ```
+``` output\images\test\ET_101_Day_21\ET_101_Day_21_Image1_Ex ```
 
-If you already have your cornea images extracted, you can directly put them inside the folder and run 2
+If you already have cornea segmentations done and placed in the expected folders, then you can run ``Step 2``:
 
 2. Run ```Grade_cornea_run_me.m```
 
