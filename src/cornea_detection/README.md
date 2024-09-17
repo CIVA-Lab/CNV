@@ -13,9 +13,9 @@ Put the ```mosaic_cornea_weights``` in log, and put your ```output\stage_test```
 
 4. Take the detection masks and place them in 
 
-```output/Output_from_MaskRCNN_masks```
+```output\Output_from_MaskRCNN_masks```
 
-To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN results, you should run 5, and the results will be ready in ```output/Classify_me_circles``` folder for RF CNV Grading
+To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN results, you should run 5, and the results will be ready in ```output\Classify_me_circles``` folder for RF CNV Grading
 
 5. ``` fit_circles_to_maskrcnn_masks_results.m ```
  
