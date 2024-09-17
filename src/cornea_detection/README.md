@@ -27,7 +27,7 @@ This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexch
 
 Copyright &copy; 2022-2024. Yasmin Kassim and Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
 
-**Created by:** Ph.D. student: Yasmin Kassim  
+**Created by:** Yasmin Kassim  
 Department of Electrical Engineering and Computer Science,  
 University of Missouri-Columbia  
 
