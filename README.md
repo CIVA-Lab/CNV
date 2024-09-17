@@ -5,23 +5,27 @@ This work proposes a robust automated approach to grade Cornea NeoVascularizatio
 
 # How to use CNV
 
-There are Three main folders in our repository:
+There are three main folders in our `DeepCNVDELTA` repository:
 
-**Src:** contains the algorithm scripts.
-**Data:** contains input images.
-**Output:** contains results, intermediate results and some mat files that are needed by our algorithm. 
+`src:` contains the algorithm scripts
 
+`data:` contains input images
 
-There are two parts for this software in ```src``` folder, you can skip Part 1 (Cornea Detection) if you already have your cornea extracted in ```400x400``` image size dimention. 
-
-**Part 1 -->** Cornea Detection: Extract the cornea from mice raw images using Mask R-CNN
-
-**Part 2 -->** RF CNV Grading: Run the classifier to grade the CNV disease.
-
-In both parts, there are readme file that describes the needed steps. The description is also placed here
+`output:` contains results, intermediate results and some `*.mat` files that are needed by our algorithm 
 
 
-## Part 1 : Cornea detection 
+There are two parts in the `DeepCNVDELTA` software pipeline, and the source MATLAB files are in the `src` folder.
+
+**Part 1** &#8594; Cornea Segmentation: Extract the cornea from mice raw images using Mask R-CNN
+
+**Part 2** &#8594; RF CNV Grading: Run the classifier to grade the CNV disease.
+
+Part 1 which does cornea segmentation can be skipped if you already have the cornea images extracted and resized to ```400x400``` pixels. 
+
+In each part, there is a `README.md` file that describes the processing modules.
+
+
+## [Part 1 : Cornea detection](./src/cornea_detection/README.md)
 
 To get cornea detection
 
