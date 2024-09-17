@@ -32,6 +32,7 @@ To get cornea detection
 1. Put your raw images in a folder called input, the images should be placed as this example:
 
 ex: input\Extreme\ET_101_Day 21_04.16.2015\image1.png
+ex: input\Extreme\ET_101_Day_21\image1.png 
 
 2. Run Main_cornea_data_preparation.m
 
