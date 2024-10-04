@@ -37,10 +37,10 @@
 clc;close all;clear all;
 %% ------Files & Folders---------------------------------------------------
 
-inputpath='..\..\Data\input\';
+inputpath='..\..\data\input\';
 folders = dir(inputpath);
 
-outputpath='..\..\Output\intermediate results\stage_test_big\';
+outputpath='..\..\output\intermediate results\stage_test_big\';
 % if (~isdir(outputpath))
 %  mkdir(outputpath);
 % end

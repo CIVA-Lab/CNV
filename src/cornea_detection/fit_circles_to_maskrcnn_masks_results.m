@@ -46,11 +46,11 @@ clc;close all;clear all;
 %% ------Files & Folders---------------------------------------------------
 %
 % addpath '.\Matlab_code';
-inputpath='..\..\Output\stage_test\';  %%The data here were the input to max rcnn 
-inputpath_maskresults='..\..\Output\Output_from_MaskRCNN_masks\';
+inputpath='..\..\output\stage_test\';  %%The data here were the input to max rcnn 
+inputpath_maskresults='..\..\output\Output_from_MaskRCNN_masks\';
 folders = dir(inputpath);
 
-outputpath='..\..\Output\Classify_me_circles\';
+outputpath='..\..\output\Classify_me_circles\';
 if (~isdir(outputpath))
  mkdir(outputpath);
 end
