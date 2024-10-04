@@ -35,8 +35,8 @@
 
 clear all;
 
-opath='..\..\Output\intermediate results\stage_test_big\';
-outputpath='..\..\Output\stage_test\';
+opath='..\..\output\intermediate_results\stage_test_big\';
+outputpath='..\..\output\stage_test\';
 
 mosic=zeros(600,800,3);
 
