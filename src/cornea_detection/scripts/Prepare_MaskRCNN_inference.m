@@ -40,7 +40,7 @@ clc;close all;clear all;
 inputpath='..\..\data\input\';
 folders = dir(inputpath);
 
-outputpath='..\..\output\intermediate results\stage_test_big\';
+outputpath='..\..\output\intermediate_results\stage_test_big\';
 % if (~isdir(outputpath))
 %  mkdir(outputpath);
 % end
